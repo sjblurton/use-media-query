@@ -33,7 +33,19 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "use-media-query",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjblurton/use-media-query"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "custom",
+    "typescript",
+    "test",
+    "testing"
+  ],
+  "name": "@sjblurton/use-media-query",
   "author": "Simon Blurton",
   "module": "dist/use-media-query.esm.js",
   "size-limit": [
@@ -48,6 +60,7 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
+    "@testing-library/react-hooks": "^8.0.0",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
     "husky": "^7.0.4",
@@ -57,5 +70,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@sjblurton/use-event-listener": "^0.1.0"
   }
 }
